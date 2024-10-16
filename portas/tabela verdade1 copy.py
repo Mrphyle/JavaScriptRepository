@@ -117,15 +117,17 @@ def porta_xnor():
 
         if a == "1" and b == "1":
             print(not (a1 ^ b1), "=1")
-if escolha_porta.lower() == "and":
-    porta_and()
-elif escolha_porta.lower() == "or":
-    porta_or()
-elif escolha_porta.lower() == "xor":
-    porta_xor()
-elif escolha_porta.lower() == "nand":
-    porta_nand()
-elif escolha_porta.lower() == "nor":
-    porta_nor()
-elif escolha_porta.lower() == "xnor":
-    porta_xnor()
+def porta_logica():
+    if escolha_porta.lower() == "and":
+        porta_and()
+    elif escolha_porta.lower() == "or":
+        porta_or()
+    elif escolha_porta.lower() == "xor":
+        porta_xor()
+    elif escolha_porta.lower() == "nand":
+        porta_nand()
+    elif escolha_porta.lower() == "nor":
+        porta_nor()
+    elif escolha_porta.lower() == "xnor":
+        porta_xnor()
+porta_logica()
