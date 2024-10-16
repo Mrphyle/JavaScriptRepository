@@ -1,0 +1,35 @@
+{
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": true,
+    "workbench.startupEditor": "none",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SQL for Data Science",
+            "group": "Mr.phyle",
+            "database": "E:\\sincpyhouse\\SQL\\.sql"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "wallpaper-setting.wallpaper.filePath": "\"C:\\Users\\hoolf\\Downloads\\Untitled1_20240825101635.png\"",
+    "azureResourceGroups.selectedSubscriptions": [],
+    "workbench.editorAssociations": {
+        "*.js": "default"
+    },
+    "editor.fontFamily": "'Minecraftia', 'Courier New', monospace",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 25,
+    "jdk.jdkhome": "c:\\Program Files (x86)\\Java",
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#00ac00", // Texto do editor em verde
+        "terminal.foreground": "#009e00", 
+    }
+}
