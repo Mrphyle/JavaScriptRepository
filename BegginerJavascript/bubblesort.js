@@ -1,6 +1,6 @@
 //npm install prompt-sync
+const prompt = require('prompt-sync')();
 do{
-    const prompt = require('prompt-sync')();
     let list = []; //90,10,70,5,4,6,100,11,0,1,8
     var inputnumberslist = parseInt(prompt("when numbers you want add in this list? "))
     for (let i = 0; i < inputnumberslist; i++){

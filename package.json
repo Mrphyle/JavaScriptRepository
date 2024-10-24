@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.3",
     "prompt-sync": "^4.2.0"
   }
 }
